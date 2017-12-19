@@ -1,0 +1,197 @@
+/* -- CSS RESET -- */
+*{ padding: 0;
+  margin; 0;
+  font-size; 100%;
+  line-height: 1em;
+}
+body {
+width: 100%;
+max-width: 100%;
+    max-height: 100%;
+font-family: 'Pacifico', cursive;
+  margin: auto;
+  color: black;s
+line-height: 1.8em;
+}
+
+/*--Headings--*/
+
+h1 {font-size: 5em;
+    text-align: right;
+padding-top: 5em;
+    padding-right: 1em;
+color: white;}
+
+h2 {font-size: 40px;
+    text-align: right;
+    padding-right: 6em;
+    color: white;
+}
+h3 {font-size: 5em;
+    text-align: center;
+    color: white;
+    padding-bottom: 2px;
+}
+h4 {position: absolute;
+    font-size: 5em;
+    left: 11em;
+    text-align: center;
+    color: white;
+line-height: 40px;
+letter-spacing: 2px;}
+
+h5 {position: absolute;
+    font-size: 5em;
+    margin-left: 3.8em;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+letter-spacing: 2px;
+}
+
+.netherlandtitle {margin-left: 2.3em;}
+
+.jamaicatitle {margin-left: 3em;}
+
+.greecetitle {margin-left: 3.4em;}
+
+/*--Paragraph--*/
+p, li {
+line-height: 10px;
+letter-spacing: 2px;}
+
+p {font-size: 30px;
+font-family: 'Didact Gothic', sans-serif;
+    margin-left: 12em;
+    margin-right: 12em;
+line-height: 40px;
+letter-spacing: 2px;}
+
+.righttext {position: absolute;
+    margin-left: 4em;
+    margin-right: 4em;
+left:20em;
+margin-top: 8em;}
+
+.lefttext {position: absolute;
+    margin-left: 4em;
+    margin-right: 4em;
+right:20em;
+margin-top: 9em;}
+
+.copyright {margin-left: 34em;
+margin-right: 30em;
+margin-top: 5em;}
+
+/* --Divs-- */
+
+.maria {background-image: url(homepageicons.png);
+     background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 20em;}
+
+.brief {background-color: #F46E67;
+ padding-top: 2em;
+    padding-bottom: 2em;}
+
+.blue {background-color: #A7E1E4;}
+
+.pink {background-color: #F46E67;}
+
+.download {padding-top: 1em;
+background-color: #A7E1E4;
+padding-bottom: 8em;}
+
+
+.downloadbtn {position: absolute; 
+    padding-top: 1em;
+left: 38em;}
+
+/*--Images--*/
+img { display: block;
+margin: auto;
+    max-width: 100%;}
+
+.righticon {margin-right: 50em;}
+
+.lefticon {margin-left: 50em;}
+
+/*--Button--*/ 
+
+.btn {
+  width: 8em;
+  height: 2em;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow:  rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;}
+
+.btn:hover {
+  background-color: grey;
+      box-shadow: grey;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+
+/*--Icons--*/
+.icons {margin: 0 auto;
+    padding-top: 2em;
+    width: 26em;
+background-color: #F46E67;}
+
+.icons:hover img{
+    opacity: .6;
+    transform: scale(.90);}
+
+.icons img:hover{ opacity: 1;
+transform: scale(1.1);}
+
+.icons img {float: left; 
+    transition: all .2s ease-in-out;
+margin-left: 4em;}
+
+/*--Footer--*/ 
+footer {padding-bottom: 2em;
+background-color: #F46E67;}
+
+/*--tablet--*/
+@media (max-width: 1000px) {
+    
+    
+    
+  body{
+/*    background-color: #8080ff;*/
+    width: 100%;
+    
+    }
+
+    article p {
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+    
+  /*--smartphone--*/
+  @media (max-width: 500px) {
+    article p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+      nav ul {text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 10px;
+}
+nav ul li {
+  display: inline;
+  margin: 3px;
+
+  }
